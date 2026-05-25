@@ -1,0 +1,15 @@
+# Secrets - kabhi commit mat karna
+.env
+*.pem
+*.key
+terraform.tfvars
+terraform.tfstate
+terraform.tfstate.backup
+.terraform/
+
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+bin/
+obj/
